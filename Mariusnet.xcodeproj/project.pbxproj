@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77D74C461436E1E00020515E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D74C451436E1E00020515E /* UIKit.framework */; };
+		77D74C481436E1E00020515E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D74C471436E1E00020515E /* Foundation.framework */; };
+		77D74C4A1436E1E00020515E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D74C491436E1E00020515E /* CoreGraphics.framework */; };
+		77D74C4C1436E1E00020515E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D74C4B1436E1E00020515E /* CoreData.framework */; };
+		77D74C521436E1E00020515E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77D74C501436E1E00020515E /* InfoPlist.strings */; };
+		77D74C551436E1E00020515E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D74C541436E1E00020515E /* main.m */; };
+		77D74C581436E1E00020515E /* MariusnetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D74C571436E1E00020515E /* MariusnetAppDelegate.m */; };
+		77D74C5B1436E1E00020515E /* Mariusnet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77D74C591436E1E00020515E /* Mariusnet.xcdatamodeld */; };
+		77D74C5E1436E1E00020515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D74C5C1436E1E00020515E /* MainWindow.xib */; };
+		77D74C611436E1E00020515E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D74C601436E1E00020515E /* RootViewController.m */; };
+		77D74C641436E1E00020515E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D74C621436E1E00020515E /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77D74C411436E1E00020515E /* Mariusnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mariusnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D74C451436E1E00020515E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77D74C471436E1E00020515E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77D74C491436E1E00020515E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77D74C4B1436E1E00020515E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		77D74C4F1436E1E00020515E /* Mariusnet-Info.plist */ = {isa = PBXFileReference; path = "Mariusnet-Info.plist"; sourceTree = "<group>"; };
+		77D74C511436E1E00020515E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77D74C531436E1E00020515E /* Mariusnet-Prefix.pch */ = {isa = PBXFileReference; path = "Mariusnet-Prefix.pch"; sourceTree = "<group>"; };
+		77D74C541436E1E00020515E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77D74C561436E1E00020515E /* MariusnetAppDelegate.h */ = {isa = PBXFileReference; path = MariusnetAppDelegate.h; sourceTree = "<group>"; };
+		77D74C571436E1E00020515E /* MariusnetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MariusnetAppDelegate.m; sourceTree = "<group>"; };
+		77D74C5A1436E1E00020515E /* Mariusnet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mariusnet.xcdatamodel; sourceTree = "<group>"; };
+		77D74C5D1436E1E00020515E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		77D74C5F1436E1E00020515E /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		77D74C601436E1E00020515E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		77D74C631436E1E00020515E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77D74C3E1436E1DF0020515E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D74C461436E1E00020515E /* UIKit.framework in Frameworks */,
+				77D74C481436E1E00020515E /* Foundation.framework in Frameworks */,
+				77D74C4A1436E1E00020515E /* CoreGraphics.framework in Frameworks */,
+				77D74C4C1436E1E00020515E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77D74C361436E1DF0020515E = {
+			isa = PBXGroup;
+			children = (
+				77D74C4D1436E1E00020515E /* Mariusnet */,
+				77D74C441436E1E00020515E /* Frameworks */,
+				77D74C421436E1E00020515E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77D74C421436E1E00020515E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77D74C411436E1E00020515E /* Mariusnet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77D74C441436E1E00020515E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77D74C451436E1E00020515E /* UIKit.framework */,
+				77D74C471436E1E00020515E /* Foundation.framework */,
+				77D74C491436E1E00020515E /* CoreGraphics.framework */,
+				77D74C4B1436E1E00020515E /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77D74C4D1436E1E00020515E /* Mariusnet */ = {
+			isa = PBXGroup;
+			children = (
+				77D74C561436E1E00020515E /* MariusnetAppDelegate.h */,
+				77D74C571436E1E00020515E /* MariusnetAppDelegate.m */,
+				77D74C5C1436E1E00020515E /* MainWindow.xib */,
+				77D74C5F1436E1E00020515E /* RootViewController.h */,
+				77D74C601436E1E00020515E /* RootViewController.m */,
+				77D74C621436E1E00020515E /* RootViewController.xib */,
+				77D74C591436E1E00020515E /* Mariusnet.xcdatamodeld */,
+				77D74C4E1436E1E00020515E /* Supporting Files */,
+			);
+			path = Mariusnet;
+			sourceTree = "<group>";
+		};
+		77D74C4E1436E1E00020515E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D74C4F1436E1E00020515E /* Mariusnet-Info.plist */,
+				77D74C501436E1E00020515E /* InfoPlist.strings */,
+				77D74C531436E1E00020515E /* Mariusnet-Prefix.pch */,
+				77D74C541436E1E00020515E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77D74C401436E1DF0020515E /* Mariusnet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D74C671436E1E00020515E /* Build configuration list for PBXNativeTarget "Mariusnet" */;
+			buildPhases = (
+				77D74C3D1436E1DF0020515E /* Sources */,
+				77D74C3E1436E1DF0020515E /* Frameworks */,
+				77D74C3F1436E1DF0020515E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mariusnet;
+			productName = Mariusnet;
+			productReference = 77D74C411436E1E00020515E /* Mariusnet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77D74C381436E1DF0020515E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 77D74C3B1436E1DF0020515E /* Build configuration list for PBXProject "Mariusnet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77D74C361436E1DF0020515E;
+			productRefGroup = 77D74C421436E1E00020515E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77D74C401436E1DF0020515E /* Mariusnet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77D74C3F1436E1DF0020515E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D74C521436E1E00020515E /* InfoPlist.strings in Resources */,
+				77D74C5E1436E1E00020515E /* MainWindow.xib in Resources */,
+				77D74C641436E1E00020515E /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77D74C3D1436E1DF0020515E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D74C551436E1E00020515E /* main.m in Sources */,
+				77D74C581436E1E00020515E /* MariusnetAppDelegate.m in Sources */,
+				77D74C5B1436E1E00020515E /* Mariusnet.xcdatamodeld in Sources */,
+				77D74C611436E1E00020515E /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77D74C501436E1E00020515E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D74C511436E1E00020515E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77D74C5C1436E1E00020515E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D74C5D1436E1E00020515E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		77D74C621436E1E00020515E /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D74C631436E1E00020515E /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77D74C651436E1E00020515E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77D74C661436E1E00020515E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		77D74C681436E1E00020515E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mariusnet/Mariusnet-Prefix.pch";
+				INFOPLIST_FILE = "Mariusnet/Mariusnet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77D74C691436E1E00020515E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mariusnet/Mariusnet-Prefix.pch";
+				INFOPLIST_FILE = "Mariusnet/Mariusnet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77D74C3B1436E1DF0020515E /* Build configuration list for PBXProject "Mariusnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D74C651436E1E00020515E /* Debug */,
+				77D74C661436E1E00020515E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D74C671436E1E00020515E /* Build configuration list for PBXNativeTarget "Mariusnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D74C681436E1E00020515E /* Debug */,
+				77D74C691436E1E00020515E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77D74C591436E1E00020515E /* Mariusnet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77D74C5A1436E1E00020515E /* Mariusnet.xcdatamodel */,
+			);
+			currentVersion = 77D74C5A1436E1E00020515E /* Mariusnet.xcdatamodel */;
+			path = Mariusnet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 77D74C381436E1DF0020515E /* Project object */;
+}
