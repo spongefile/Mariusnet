@@ -8,10 +8,7 @@
 
 #import "MariusnetAppDelegate.h"
 
-#import "RootViewController.h"
-
 @implementation MariusnetAppDelegate
-
 
 @synthesize window=_window;
 
@@ -23,12 +20,16 @@
 
 @synthesize navigationController=_navigationController;
 
+@synthesize uiTabBarController;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     // Add the navigation controller's view to the window and display.
-    self.window.rootViewController = self.navigationController;
+    
+    self.window.rootViewController = self.uiTabBarController;
     [self.window makeKeyAndVisible];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     return YES;
 }
 
@@ -64,24 +65,32 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    // Saves changes in the application's managed object context before the application terminates.
+    /*
+     Called when the application is about to terminate.
+     Save data if appropriate.
+     See also applicationDidEnterBackground:.
+     */
     [self saveContext];
 }
 
 - (void)dealloc
 {
     [_window release];
+    [_navigationController release];
+    
     [__managedObjectContext release];
     [__managedObjectModel release];
     [__persistentStoreCoordinator release];
-    [_navigationController release];
+    
     [super dealloc];
 }
 
 - (void)awakeFromNib
 {
-    RootViewController *rootViewController = (RootViewController *)[self.navigationController topViewController];
-    rootViewController.managedObjectContext = self.managedObjectContext;
+    /*
+     Typically you should set up the Core Data stack here, usually by passing the managed object context to the first view controller.
+     self.<#View controller#>.managedObjectContext = self.managedObjectContext;
+     */
 }
 
 - (void)saveContext
@@ -135,7 +144,7 @@
     {
         return __managedObjectModel;
     }
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Mariusnet" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"coredatatest" withExtension:@"momd"];
     __managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];    
     return __managedObjectModel;
 }
@@ -151,7 +160,7 @@
         return __persistentStoreCoordinator;
     }
     
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Mariusnet.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"coredatatest.sqlite"];
     
     NSError *error = nil;
     __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
@@ -196,5 +205,6 @@
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
+
 
 @end

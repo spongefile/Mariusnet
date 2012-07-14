@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7707C2A6143CEB2700D66A90 /* NoobOk.png in Resources */ = {isa = PBXBuildFile; fileRef = 7707C2A5143CEB2700D66A90 /* NoobOk.png */; };
+		7707C2AA143CECC700D66A90 /* NoobNo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7707C2A9143CECC700D66A90 /* NoobNo.png */; };
+		7707C2AD143E4B5200D66A90 /* XMLNoobListParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7707C2AC143E4B5100D66A90 /* XMLNoobListParser.m */; };
 		77D74C461436E1E00020515E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D74C451436E1E00020515E /* UIKit.framework */; };
 		77D74C481436E1E00020515E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D74C471436E1E00020515E /* Foundation.framework */; };
 		77D74C4A1436E1E00020515E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D74C491436E1E00020515E /* CoreGraphics.framework */; };
@@ -14,29 +17,133 @@
 		77D74C521436E1E00020515E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77D74C501436E1E00020515E /* InfoPlist.strings */; };
 		77D74C551436E1E00020515E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D74C541436E1E00020515E /* main.m */; };
 		77D74C581436E1E00020515E /* MariusnetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D74C571436E1E00020515E /* MariusnetAppDelegate.m */; };
-		77D74C5B1436E1E00020515E /* Mariusnet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77D74C591436E1E00020515E /* Mariusnet.xcdatamodeld */; };
 		77D74C5E1436E1E00020515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D74C5C1436E1E00020515E /* MainWindow.xib */; };
 		77D74C611436E1E00020515E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D74C601436E1E00020515E /* RootViewController.m */; };
-		77D74C641436E1E00020515E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D74C621436E1E00020515E /* RootViewController.xib */; };
+		77F27FBE143A51280003CF38 /* controlstab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F27FBD143A51280003CF38 /* controlstab@2x.png */; };
+		77F27FC1143A51620003CF38 /* controlstab.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F27FC0143A51620003CF38 /* controlstab.png */; };
+		77F27FC3143A51DF0003CF38 /* commandstab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F27FC2143A51DF0003CF38 /* commandstab@2x.png */; };
+		77F27FC5143A52110003CF38 /* commandstab.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F27FC4143A52100003CF38 /* commandstab.png */; };
+		77F27FC7143A7EAF0003CF38 /* Mythcontrols.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F27FC6143A7EAE0003CF38 /* Mythcontrols.png */; };
+		77F8247E1438F244001C8248 /* Mariusnet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77F8247C1438F244001C8248 /* Mariusnet.xcdatamodeld */; };
+		77F824891439AD2E001C8248 /* marathon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F824881439AD2E001C8248 /* marathon.png */; };
+		77F936A51436E350006155BD /* MyCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F936A41436E350006155BD /* MyCustomTableViewCell.m */; };
+		77F936B11436E575006155BD /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F936B01436E575006155BD /* Player.m */; };
+		77F936B41436E591006155BD /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F936B31436E591006155BD /* PullRefreshTableViewController.m */; };
+		77F936BA1436E610006155BD /* UIColor+i7HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F936B81436E610006155BD /* UIColor+i7HexColor.m */; };
+		77F936BD1436E625006155BD /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F936BC1436E625006155BD /* XMLParser.m */; };
+		77F936C11436E679006155BD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F936BF1436E679006155BD /* WebViewController.m */; };
+		77F936C21436E679006155BD /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F936C01436E679006155BD /* WebViewController.xib */; };
+		77F936CC1436E8B3006155BD /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936CB1436E8B3006155BD /* arrow.png */; };
+		77F936CE1436EACC006155BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F936CD1436EACC006155BD /* QuartzCore.framework */; };
+		77F936D01436EC40006155BD /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F936CF1436EC40006155BD /* RootViewController.xib */; };
+		77F936DA1436F36B006155BD /* soulblightersm.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936D31436F36A006155BD /* soulblightersm.png */; };
+		77F936DB1436F36B006155BD /* mythiconsm.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936D41436F36A006155BD /* mythiconsm.png */; };
+		77F936DC1436F36B006155BD /* mythicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936D51436F36B006155BD /* mythicon.png */; };
+		77F936DD1436F36B006155BD /* marathonsm.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936D61436F36B006155BD /* marathonsm.png */; };
+		77F936DE1436F36B006155BD /* WolfAgesm.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936D71436F36B006155BD /* WolfAgesm.png */; };
+		77F936DF1436F36B006155BD /* FallenLordssm.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936D81436F36B006155BD /* FallenLordssm.png */; };
+		77F936E21436F48C006155BD /* mariustab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936E01436F48C006155BD /* mariustab@2x.png */; };
+		77F936E31436F48C006155BD /* playerstab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936E11436F48C006155BD /* playerstab@2x.png */; };
+		77F936E51436F50C006155BD /* FallenLords.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936E41436F50C006155BD /* FallenLords.png */; };
+		77F936E71436F543006155BD /* soulblighter.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936E61436F543006155BD /* soulblighter.png */; };
+		77F936E91436F570006155BD /* WolfAge.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936E81436F570006155BD /* WolfAge.png */; };
+		77F936EB1436F5BC006155BD /* moretab.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936EA1436F5BC006155BD /* moretab.png */; };
+		77F936ED1436F5F8006155BD /* moretab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936EC1436F5F8006155BD /* moretab@2x.png */; };
+		77F936EF1436F620006155BD /* mariustab.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936EE1436F620006155BD /* mariustab.png */; };
+		77F936F11436F629006155BD /* playerstab.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936F01436F629006155BD /* playerstab.png */; };
+		77F936FE14384181006155BD /* caste0.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936FD14384181006155BD /* caste0.png */; };
+		77F93700143841CF006155BD /* caste16.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F936FF143841CF006155BD /* caste16.png */; };
+		77F9370214384224006155BD /* caste1.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F9370114384224006155BD /* caste1.png */; };
+		77F937041438427A006155BD /* caste2.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F9370314384279006155BD /* caste2.png */; };
+		77F93706143844E3006155BD /* caste3.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F93705143844E2006155BD /* caste3.png */; };
+		77F93708143845AF006155BD /* caste4.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F93707143845AF006155BD /* caste4.png */; };
+		77F9370A143845EE006155BD /* caste5.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F93709143845ED006155BD /* caste5.png */; };
+		77F9370C1438465A006155BD /* caste6.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F9370B1438465A006155BD /* caste6.png */; };
+		77F9370E14384686006155BD /* caste7.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F9370D14384685006155BD /* caste7.png */; };
+		77F93710143846BB006155BD /* caste8.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F9370F143846BB006155BD /* caste8.png */; };
+		77F93712143846E0006155BD /* caste9.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F93711143846DF006155BD /* caste9.png */; };
+		77F9371414384730006155BD /* caste10.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F937131438472F006155BD /* caste10.png */; };
+		77F9371614384752006155BD /* caste11.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F9371514384751006155BD /* caste11.png */; };
+		77F9371814384772006155BD /* caste12.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F9371714384771006155BD /* caste12.png */; };
+		77F9371A14384796006155BD /* caste13.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F9371914384795006155BD /* caste13.png */; };
+		77F9371C143847BC006155BD /* caste14.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F9371B143847BC006155BD /* caste14.png */; };
+		77F9371E143847D7006155BD /* caste15.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F9371D143847D6006155BD /* caste15.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7707C2A5143CEB2700D66A90 /* NoobOk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoobOk.png; sourceTree = "<group>"; };
+		7707C2A9143CECC700D66A90 /* NoobNo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoobNo.png; sourceTree = "<group>"; };
+		7707C2AB143E4B5100D66A90 /* XMLNoobListParser.h */ = {isa = PBXFileReference; fileEncoding = 4; path = XMLNoobListParser.h; sourceTree = "<group>"; };
+		7707C2AC143E4B5100D66A90 /* XMLNoobListParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLNoobListParser.m; sourceTree = "<group>"; };
 		77D74C411436E1E00020515E /* Mariusnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mariusnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D74C451436E1E00020515E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		77D74C471436E1E00020515E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		77D74C491436E1E00020515E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		77D74C4B1436E1E00020515E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		77D74C4F1436E1E00020515E /* Mariusnet-Info.plist */ = {isa = PBXFileReference; path = "Mariusnet-Info.plist"; sourceTree = "<group>"; };
+		77D74C4F1436E1E00020515E /* Mariusnet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mariusnet-Info.plist"; sourceTree = "<group>"; };
 		77D74C511436E1E00020515E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		77D74C531436E1E00020515E /* Mariusnet-Prefix.pch */ = {isa = PBXFileReference; path = "Mariusnet-Prefix.pch"; sourceTree = "<group>"; };
+		77D74C531436E1E00020515E /* Mariusnet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mariusnet-Prefix.pch"; sourceTree = "<group>"; };
 		77D74C541436E1E00020515E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		77D74C561436E1E00020515E /* MariusnetAppDelegate.h */ = {isa = PBXFileReference; path = MariusnetAppDelegate.h; sourceTree = "<group>"; };
+		77D74C561436E1E00020515E /* MariusnetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MariusnetAppDelegate.h; sourceTree = "<group>"; };
 		77D74C571436E1E00020515E /* MariusnetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MariusnetAppDelegate.m; sourceTree = "<group>"; };
-		77D74C5A1436E1E00020515E /* Mariusnet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mariusnet.xcdatamodel; sourceTree = "<group>"; };
 		77D74C5D1436E1E00020515E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		77D74C5F1436E1E00020515E /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		77D74C5F1436E1E00020515E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		77D74C601436E1E00020515E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		77D74C631436E1E00020515E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		77F27FBD143A51280003CF38 /* controlstab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "controlstab@2x.png"; sourceTree = "<group>"; };
+		77F27FC0143A51620003CF38 /* controlstab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlstab.png; sourceTree = "<group>"; };
+		77F27FC2143A51DF0003CF38 /* commandstab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "commandstab@2x.png"; sourceTree = "<group>"; };
+		77F27FC4143A52100003CF38 /* commandstab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commandstab.png; sourceTree = "<group>"; };
+		77F27FC6143A7EAE0003CF38 /* Mythcontrols.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mythcontrols.png; sourceTree = "<group>"; };
+		77F8247D1438F244001C8248 /* Mariusnetdata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mariusnetdata.xcdatamodel; sourceTree = "<group>"; };
+		77F824881439AD2E001C8248 /* marathon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marathon.png; sourceTree = "<group>"; };
+		77F936A31436E350006155BD /* MyCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomTableViewCell.h; sourceTree = "<group>"; };
+		77F936A41436E350006155BD /* MyCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomTableViewCell.m; sourceTree = "<group>"; };
+		77F936AE1436E56C006155BD /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		77F936B01436E575006155BD /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		77F936B21436E591006155BD /* PullRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRefreshTableViewController.h; sourceTree = "<group>"; };
+		77F936B31436E591006155BD /* PullRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRefreshTableViewController.m; sourceTree = "<group>"; };
+		77F936B71436E610006155BD /* UIColor+i7HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+i7HexColor.h"; sourceTree = "<group>"; };
+		77F936B81436E610006155BD /* UIColor+i7HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+i7HexColor.m"; sourceTree = "<group>"; };
+		77F936BB1436E625006155BD /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		77F936BC1436E625006155BD /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		77F936BE1436E679006155BD /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		77F936BF1436E679006155BD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		77F936C01436E679006155BD /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		77F936CB1436E8B3006155BD /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		77F936CD1436EACC006155BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		77F936CF1436EC40006155BD /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		77F936D31436F36A006155BD /* soulblightersm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soulblightersm.png; sourceTree = "<group>"; };
+		77F936D41436F36A006155BD /* mythiconsm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mythiconsm.png; sourceTree = "<group>"; };
+		77F936D51436F36B006155BD /* mythicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mythicon.png; sourceTree = "<group>"; };
+		77F936D61436F36B006155BD /* marathonsm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marathonsm.png; sourceTree = "<group>"; };
+		77F936D71436F36B006155BD /* WolfAgesm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WolfAgesm.png; sourceTree = "<group>"; };
+		77F936D81436F36B006155BD /* FallenLordssm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FallenLordssm.png; sourceTree = "<group>"; };
+		77F936E01436F48C006155BD /* mariustab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mariustab@2x.png"; sourceTree = "<group>"; };
+		77F936E11436F48C006155BD /* playerstab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playerstab@2x.png"; sourceTree = "<group>"; };
+		77F936E41436F50C006155BD /* FallenLords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FallenLords.png; sourceTree = "<group>"; };
+		77F936E61436F543006155BD /* soulblighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soulblighter.png; sourceTree = "<group>"; };
+		77F936E81436F570006155BD /* WolfAge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WolfAge.png; sourceTree = "<group>"; };
+		77F936EA1436F5BC006155BD /* moretab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moretab.png; sourceTree = "<group>"; };
+		77F936EC1436F5F8006155BD /* moretab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moretab@2x.png"; sourceTree = "<group>"; };
+		77F936EE1436F620006155BD /* mariustab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mariustab.png; sourceTree = "<group>"; };
+		77F936F01436F629006155BD /* playerstab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playerstab.png; sourceTree = "<group>"; };
+		77F936FD14384181006155BD /* caste0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste0.png; sourceTree = "<group>"; };
+		77F936FF143841CF006155BD /* caste16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste16.png; sourceTree = "<group>"; };
+		77F9370114384224006155BD /* caste1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste1.png; sourceTree = "<group>"; };
+		77F9370314384279006155BD /* caste2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste2.png; sourceTree = "<group>"; };
+		77F93705143844E2006155BD /* caste3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste3.png; sourceTree = "<group>"; };
+		77F93707143845AF006155BD /* caste4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste4.png; sourceTree = "<group>"; };
+		77F93709143845ED006155BD /* caste5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste5.png; sourceTree = "<group>"; };
+		77F9370B1438465A006155BD /* caste6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste6.png; sourceTree = "<group>"; };
+		77F9370D14384685006155BD /* caste7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste7.png; sourceTree = "<group>"; };
+		77F9370F143846BB006155BD /* caste8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste8.png; sourceTree = "<group>"; };
+		77F93711143846DF006155BD /* caste9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste9.png; sourceTree = "<group>"; };
+		77F937131438472F006155BD /* caste10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste10.png; sourceTree = "<group>"; };
+		77F9371514384751006155BD /* caste11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste11.png; sourceTree = "<group>"; };
+		77F9371714384771006155BD /* caste12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste12.png; sourceTree = "<group>"; };
+		77F9371914384795006155BD /* caste13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste13.png; sourceTree = "<group>"; };
+		77F9371B143847BC006155BD /* caste14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste14.png; sourceTree = "<group>"; };
+		77F9371D143847D6006155BD /* caste15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caste15.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F936CE1436EACC006155BD /* QuartzCore.framework in Frameworks */,
 				77D74C461436E1E00020515E /* UIKit.framework in Frameworks */,
 				77D74C481436E1E00020515E /* Foundation.framework in Frameworks */,
 				77D74C4A1436E1E00020515E /* CoreGraphics.framework in Frameworks */,
@@ -57,6 +165,7 @@
 		77D74C361436E1DF0020515E = {
 			isa = PBXGroup;
 			children = (
+				77F936CD1436EACC006155BD /* QuartzCore.framework */,
 				77D74C4D1436E1E00020515E /* Mariusnet */,
 				77D74C441436E1E00020515E /* Frameworks */,
 				77D74C421436E1E00020515E /* Products */,
@@ -85,13 +194,28 @@
 		77D74C4D1436E1E00020515E /* Mariusnet */ = {
 			isa = PBXGroup;
 			children = (
+				77F8247C1438F244001C8248 /* Mariusnet.xcdatamodeld */,
+				77F936AE1436E56C006155BD /* Player.h */,
+				77F936B01436E575006155BD /* Player.m */,
+				77F936BB1436E625006155BD /* XMLParser.h */,
+				77F936BC1436E625006155BD /* XMLParser.m */,
+				7707C2AB143E4B5100D66A90 /* XMLNoobListParser.h */,
+				7707C2AC143E4B5100D66A90 /* XMLNoobListParser.m */,
+				77F936A31436E350006155BD /* MyCustomTableViewCell.h */,
+				77F936A41436E350006155BD /* MyCustomTableViewCell.m */,
 				77D74C561436E1E00020515E /* MariusnetAppDelegate.h */,
 				77D74C571436E1E00020515E /* MariusnetAppDelegate.m */,
+				77F936B21436E591006155BD /* PullRefreshTableViewController.h */,
+				77F936B31436E591006155BD /* PullRefreshTableViewController.m */,
 				77D74C5C1436E1E00020515E /* MainWindow.xib */,
 				77D74C5F1436E1E00020515E /* RootViewController.h */,
 				77D74C601436E1E00020515E /* RootViewController.m */,
-				77D74C621436E1E00020515E /* RootViewController.xib */,
-				77D74C591436E1E00020515E /* Mariusnet.xcdatamodeld */,
+				77F936CF1436EC40006155BD /* RootViewController.xib */,
+				77F936BE1436E679006155BD /* WebViewController.h */,
+				77F936BF1436E679006155BD /* WebViewController.m */,
+				77F936C01436E679006155BD /* WebViewController.xib */,
+				77F936B71436E610006155BD /* UIColor+i7HexColor.h */,
+				77F936B81436E610006155BD /* UIColor+i7HexColor.m */,
 				77D74C4E1436E1E00020515E /* Supporting Files */,
 			);
 			path = Mariusnet;
@@ -104,6 +228,47 @@
 				77D74C501436E1E00020515E /* InfoPlist.strings */,
 				77D74C531436E1E00020515E /* Mariusnet-Prefix.pch */,
 				77D74C541436E1E00020515E /* main.m */,
+				77F936CB1436E8B3006155BD /* arrow.png */,
+				77F936F01436F629006155BD /* playerstab.png */,
+				77F936EE1436F620006155BD /* mariustab.png */,
+				77F27FC0143A51620003CF38 /* controlstab.png */,
+				77F27FC4143A52100003CF38 /* commandstab.png */,
+				77F936EA1436F5BC006155BD /* moretab.png */,
+				77F936E01436F48C006155BD /* mariustab@2x.png */,
+				77F936E11436F48C006155BD /* playerstab@2x.png */,
+				77F27FBD143A51280003CF38 /* controlstab@2x.png */,
+				77F27FC2143A51DF0003CF38 /* commandstab@2x.png */,
+				77F936EC1436F5F8006155BD /* moretab@2x.png */,
+				77F824881439AD2E001C8248 /* marathon.png */,
+				77F936D61436F36B006155BD /* marathonsm.png */,
+				77F936E41436F50C006155BD /* FallenLords.png */,
+				77F936D81436F36B006155BD /* FallenLordssm.png */,
+				77F936E61436F543006155BD /* soulblighter.png */,
+				77F936D31436F36A006155BD /* soulblightersm.png */,
+				77F936D71436F36B006155BD /* WolfAgesm.png */,
+				77F936E81436F570006155BD /* WolfAge.png */,
+				77F27FC6143A7EAE0003CF38 /* Mythcontrols.png */,
+				77F936D41436F36A006155BD /* mythiconsm.png */,
+				77F936D51436F36B006155BD /* mythicon.png */,
+				7707C2A5143CEB2700D66A90 /* NoobOk.png */,
+				7707C2A9143CECC700D66A90 /* NoobNo.png */,
+				77F936FD14384181006155BD /* caste0.png */,
+				77F9370114384224006155BD /* caste1.png */,
+				77F9370314384279006155BD /* caste2.png */,
+				77F93705143844E2006155BD /* caste3.png */,
+				77F93707143845AF006155BD /* caste4.png */,
+				77F93709143845ED006155BD /* caste5.png */,
+				77F9370B1438465A006155BD /* caste6.png */,
+				77F9370D14384685006155BD /* caste7.png */,
+				77F9370F143846BB006155BD /* caste8.png */,
+				77F93711143846DF006155BD /* caste9.png */,
+				77F937131438472F006155BD /* caste10.png */,
+				77F9371514384751006155BD /* caste11.png */,
+				77F9371714384771006155BD /* caste12.png */,
+				77F9371914384795006155BD /* caste13.png */,
+				77F9371B143847BC006155BD /* caste14.png */,
+				77F9371D143847D6006155BD /* caste15.png */,
+				77F936FF143841CF006155BD /* caste16.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,7 +322,49 @@
 			files = (
 				77D74C521436E1E00020515E /* InfoPlist.strings in Resources */,
 				77D74C5E1436E1E00020515E /* MainWindow.xib in Resources */,
-				77D74C641436E1E00020515E /* RootViewController.xib in Resources */,
+				77F936C21436E679006155BD /* WebViewController.xib in Resources */,
+				77F936CC1436E8B3006155BD /* arrow.png in Resources */,
+				77F936D01436EC40006155BD /* RootViewController.xib in Resources */,
+				77F936DA1436F36B006155BD /* soulblightersm.png in Resources */,
+				77F936DB1436F36B006155BD /* mythiconsm.png in Resources */,
+				77F936DC1436F36B006155BD /* mythicon.png in Resources */,
+				77F936DD1436F36B006155BD /* marathonsm.png in Resources */,
+				77F936DE1436F36B006155BD /* WolfAgesm.png in Resources */,
+				77F936DF1436F36B006155BD /* FallenLordssm.png in Resources */,
+				77F936E21436F48C006155BD /* mariustab@2x.png in Resources */,
+				77F936E31436F48C006155BD /* playerstab@2x.png in Resources */,
+				77F936E51436F50C006155BD /* FallenLords.png in Resources */,
+				77F936E71436F543006155BD /* soulblighter.png in Resources */,
+				77F936E91436F570006155BD /* WolfAge.png in Resources */,
+				77F936EB1436F5BC006155BD /* moretab.png in Resources */,
+				77F936ED1436F5F8006155BD /* moretab@2x.png in Resources */,
+				77F936EF1436F620006155BD /* mariustab.png in Resources */,
+				77F936F11436F629006155BD /* playerstab.png in Resources */,
+				77F936FE14384181006155BD /* caste0.png in Resources */,
+				77F93700143841CF006155BD /* caste16.png in Resources */,
+				77F9370214384224006155BD /* caste1.png in Resources */,
+				77F937041438427A006155BD /* caste2.png in Resources */,
+				77F93706143844E3006155BD /* caste3.png in Resources */,
+				77F93708143845AF006155BD /* caste4.png in Resources */,
+				77F9370A143845EE006155BD /* caste5.png in Resources */,
+				77F9370C1438465A006155BD /* caste6.png in Resources */,
+				77F9370E14384686006155BD /* caste7.png in Resources */,
+				77F93710143846BB006155BD /* caste8.png in Resources */,
+				77F93712143846E0006155BD /* caste9.png in Resources */,
+				77F9371414384730006155BD /* caste10.png in Resources */,
+				77F9371614384752006155BD /* caste11.png in Resources */,
+				77F9371814384772006155BD /* caste12.png in Resources */,
+				77F9371A14384796006155BD /* caste13.png in Resources */,
+				77F9371C143847BC006155BD /* caste14.png in Resources */,
+				77F9371E143847D7006155BD /* caste15.png in Resources */,
+				77F824891439AD2E001C8248 /* marathon.png in Resources */,
+				77F27FBE143A51280003CF38 /* controlstab@2x.png in Resources */,
+				77F27FC1143A51620003CF38 /* controlstab.png in Resources */,
+				77F27FC3143A51DF0003CF38 /* commandstab@2x.png in Resources */,
+				77F27FC5143A52110003CF38 /* commandstab.png in Resources */,
+				77F27FC7143A7EAF0003CF38 /* Mythcontrols.png in Resources */,
+				7707C2A6143CEB2700D66A90 /* NoobOk.png in Resources */,
+				7707C2AA143CECC700D66A90 /* NoobNo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,8 +377,15 @@
 			files = (
 				77D74C551436E1E00020515E /* main.m in Sources */,
 				77D74C581436E1E00020515E /* MariusnetAppDelegate.m in Sources */,
-				77D74C5B1436E1E00020515E /* Mariusnet.xcdatamodeld in Sources */,
 				77D74C611436E1E00020515E /* RootViewController.m in Sources */,
+				77F936A51436E350006155BD /* MyCustomTableViewCell.m in Sources */,
+				77F936B11436E575006155BD /* Player.m in Sources */,
+				77F936B41436E591006155BD /* PullRefreshTableViewController.m in Sources */,
+				77F936BA1436E610006155BD /* UIColor+i7HexColor.m in Sources */,
+				77F936BD1436E625006155BD /* XMLParser.m in Sources */,
+				77F936C11436E679006155BD /* WebViewController.m in Sources */,
+				77F8247E1438F244001C8248 /* Mariusnet.xcdatamodeld in Sources */,
+				7707C2AD143E4B5200D66A90 /* XMLNoobListParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,14 +406,6 @@
 				77D74C5D1436E1E00020515E /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		77D74C621436E1E00020515E /* RootViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77D74C631436E1E00020515E /* en */,
-			);
-			name = RootViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,18 +490,20 @@
 				77D74C691436E1E00020515E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		77D74C591436E1E00020515E /* Mariusnet.xcdatamodeld */ = {
+		77F8247C1438F244001C8248 /* Mariusnet.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				77D74C5A1436E1E00020515E /* Mariusnet.xcdatamodel */,
+				77F8247D1438F244001C8248 /* Mariusnetdata.xcdatamodel */,
 			);
-			currentVersion = 77D74C5A1436E1E00020515E /* Mariusnet.xcdatamodel */;
-			path = Mariusnet.xcdatamodeld;
-			sourceTree = "<group>";
+			currentVersion = 77F8247D1438F244001C8248 /* Mariusnetdata.xcdatamodel */;
+			name = Mariusnet.xcdatamodeld;
+			path = Mariusnetdata.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */

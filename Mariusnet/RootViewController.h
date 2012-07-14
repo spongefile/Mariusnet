@@ -1,20 +1,41 @@
 //
 //  RootViewController.h
-//  Mariusnet
+//  MythXML
 //
-//  Created by Tina Aspiala on 01/10/2011.
+//  Created by Tina Aspiala on 21/09/2011.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "XMLParser.h"
+#import "XMLNoobListParser.h"
+#import "PullRefreshTableViewController.h"
+#import "MyCustomTableViewCell.h"
 
-#import <CoreData/CoreData.h>
-
-@interface RootViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
-
+@interface RootViewController : PullRefreshTableViewController {
+    
+    XMLParser *xmlParser;
+    XMLNoobListParser *noobListXmlParser;
+    
+    NSMutableArray *casteImages;        //moved to MyCustomViewCell
+    NSMutableArray *noobImages;
+    
+    UIImageView *customImage;        //moved to MyCustomViewCell
+    UIImageView *casteImage;        //moved to MyCustomViewCell
+    UIImageView *noobImage;
 }
 
-@property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
-@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
+// Moved to MyCustomViewCell
+
+@property (nonatomic, retain) NSMutableArray *casteImages;
+@property (nonatomic, retain) NSMutableArray *noobImages; 
+@property (nonatomic, retain) UIImageView *customImage;
+//@property (nonatomic, retain) UIImageView *casteImage;
+//@property (nonatomic, retain) UIImageView *noobImage;
+
+
+
+
+
 
 @end
